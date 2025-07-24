@@ -46,7 +46,7 @@ const FactPage = () => {
         if ((type === 'date' && month && day) || number) {
             getFact();
         }
-    }, [getFact]);
+    }, [getFact,type, number, month, day]);
 
     const itemVariants = {
         hidden: { opacity: 0, y: 50, scale: 0.8 },
