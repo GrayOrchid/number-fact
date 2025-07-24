@@ -1,0 +1,5 @@
+.date-container{
+    display: flex;
+    flex-flow: column;
+    gap: 40px 0px;
+}

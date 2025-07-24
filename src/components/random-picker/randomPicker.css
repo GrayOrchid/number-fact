@@ -1,0 +1,61 @@
+.random-number-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.random-number-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ff7f50;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.random-number-btn:hover {
+  background-color: #ff6333;
+}
+
+.random-number-display-wrapper {
+  background-color: rgba(0,0,0,0.4);
+  padding: 15px 40px 15px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transform-origin: top;
+  width: 50px;
+}
+
+.random-number-display {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff6333;
+  margin: 0;
+}
+
+.clear-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  color: #888;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.clear-btn:hover {
+  color: #ff4c4c;
+}

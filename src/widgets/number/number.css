@@ -1,0 +1,8 @@
+.number-container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    gap: 20px 0px;
+}
