@@ -23,7 +23,7 @@ const FactPage = () => {
         if (type === 'date' && month && day) {
             url = `http://numbersapi.com/${month}/${day}/${type}`;
         } else if (number) {
-            url = `http://numbersapi.com/${number}/${type || 'math'}`;
+            url = `http://numbersapi.com/${number}/${type}`;
         } else {
             setFact('No fact available with current parameters.');
             setIsLoading(false);
